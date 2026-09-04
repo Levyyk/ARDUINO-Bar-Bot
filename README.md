@@ -15,12 +15,11 @@
 </p>
 
 ---
-
 ## 📸 Галерея та етапи збірки (Gallery)
 
 | Проєктування та креслення | Обтягування корпусу | Внутрішня комутація і пайка | Готовий результат |
 | :---: | :---: | :---: | :---: |
-| <img src="Photos/blueprint.png" width="200"> | <img src="Photos/finishing.png" width="200"> | <img src="Photos/electronics.jpg" width="200"> | <img src="Photos/result.jpg" width="200"> |
+| <img src="Photos/blueprint.png" height="140"> | <img src="Photos/finishing.png" height="140"> | <img src="Photos/electronics.jpg" height="140"> | <img src="Photos/result.jpg" height="140"> |
 
 ---
 
