@@ -8,7 +8,11 @@
 
 Подивися відеоогляд роботи автоматичного бар-бота на базі Arduino Uno R3:
 
-[![Дивитися відео бар-бота](https://img.youtube.com/vi/RO1bv24hK7s/0.jpg)](https://youtube.com/shorts/RO1bv24hK7s?si=kT7Ix8p-U74X5eEK)
+<p align="center">
+  <a href="https://youtube.com/shorts/RO1bv24hK7s?si=kT7Ix8p-U74X5eEK">
+    <img src="https://img.youtube.com/vi/RO1bv24hK7s/0.jpg" width="480" alt="Дивитися відео бар-бота">
+  </a>
+</p>
 
 ---
 
