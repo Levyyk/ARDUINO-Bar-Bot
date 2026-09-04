@@ -6,7 +6,7 @@
 
 ## 🎬 Демонстрація роботи (Video)
 
-<video src="video/demo.mp4" controls width="100%"></video>
+<video src="[video/demo.mp4](https://youtube.com/shorts/RO1bv24hK7s?si=kT7Ix8p-U74X5eEK)" controls width="100%"></video>
 
 ---
 
