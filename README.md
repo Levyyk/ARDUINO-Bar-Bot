@@ -19,7 +19,7 @@
 ## 📸 Галерея та етапи збірки (Gallery)
 
 <p align="center">
-  <table>
+  <table style="margin: 0 auto;">
     <tr valign="top">
       <td align="center" width="50%">
         <b>Проєктування та креслення</b><br><br>
