@@ -21,12 +21,24 @@
 <p align="center">
   <table>
     <tr>
-      <td align="center"><b>Проєктування та креслення</b><br><img src="Photos/blueprint.png" width="280"></td>
-      <td align="center"><b>Обтягування корпусу</b><br><img src="Photos/finishing.png" width="280"></td>
+      <td align="center" width="50%">
+        <b>Проєктування та креслення</b><br>
+        <img src="Photos/blueprint.png" width="320">
+      </td>
+      <td align="center" width="50%">
+        <b>Обтягування корпусу</b><br>
+        <img src="Photos/finishing.png" width="320">
+      </td>
     </tr>
     <tr>
-      <td align="center"><b>Внутрішня комутація і пайка</b><br><img src="Photos/electronics.jpg" width="280"></td>
-      <td align="center"><b>Готовий результат</b><br><img src="Photos/result.jpg" width="280"></td>
+      <td align="center" width="50%">
+        <b>Внутрішня комутація і пайка</b><br>
+        <img src="Photos/electronics.jpg" width="320">
+      </td>
+      <td align="center" width="50%">
+        <b>Готовий результат</b><br>
+        <img src="Photos/result.jpg" width="320">
+      </td>
     </tr>
   </table>
 </p>
