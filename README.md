@@ -1,129 +1,130 @@
-# 🤖 Bar Bot (Автоматичний Бармен у корпусі іграшкового комбайна)
+# 🤖 Bar Bot (Automatic Bartender in a Toy Combine Harvester)
 
-Унікальний автоматичний бар-бот, збудований на базі мікроконтролера **Arduino Uno R3** та креативно інтегрований у корпус іграшкової сільгоспмашини. Пристрій самостійно розпізнає наявність склянок, плавно керує краном за допомогою сервопривода, дозує напої з точністю до мілілітра та працює в конвеєрному режимі.
+A unique automatic bar-bot built on an **Arduino Uno R3** microcontroller and creatively integrated into the body of a toy agricultural machine. The device automatically detects the presence of cups, smoothly controls the dispenser via a servo motor, dispenses beverages with milliliter precision, and operates in a conveyor mode.
 
 ---
 
-## 🎬 Демонстрація роботи (Video)
+## 🎬 Video Demonstration
 
-Подивися відеоогляд роботи автоматичного бар-бота на базі Arduino Uno R3:
+Check out the video review of the automatic Bar-Bot in action:
 
 <p align="center">
   <a href="https://youtube.com/shorts/RO1bv24hK7s?si=kT7Ix8p-U74X5eEK">
-    <img src="https://img.youtube.com/vi/RO1bv24hK7s/0.jpg" width="480" alt="Дивитися відео бар-бота">
+    <img src="https://img.youtube.com/vi/RO1bv24hK7s/0.jpg" width="480" alt="Watch Bar-Bot Video">
   </a>
 </p>
 
 ---
 
-## 📸 Галерея та етапи збірки
+## 📸 Gallery and Assembly Stages
 
 <div align="center">
   <table>
     <tr align="center">
       <td>
-        <h3>📐 Проєктування</h3>
-        <img src="Photos/blueprint.png" width="350" alt="Креслення">
+        <h3>📐 Design & Blueprints</h3>
+        <img src="Photos/blueprint.png" width="350" alt="Blueprints">
         <br>
-        <sup><em>Розробка креслень та планування</em></sup>
+        <sup><em>Drafting and planning the layout</em></sup>
       </td>
       <td>
-        <h3>🎨 Робота з корпусом</h3>
-        <img src="Photos/finishing.png" width="350" alt="Обтягування">
+        <h3>🎨 Enclosure Work</h3>
+        <img src="Photos/finishing.png" width="350" alt="Wrapping">
         <br>
-        <sup><em>Обтягування деталей та підготовка бази</em></sup>
+        <sup><em>Wrapping parts and preparing the base</em></sup>
       </td>
     </tr>
     <tr align="center">
       <td>
-        <h3>⚙️ Електроніка</h3>
-        <img src="Photos/electronics.jpg" width="350" alt="Комутація">
+        <h3>⚙️ Electronics</h3>
+        <img src="Photos/electronics.jpg" width="350" alt="Wiring">
         <br>
-        <sup><em>Внутрішня комутація і пайка компонентів</em></sup>
+        <sup><em>Internal wiring and soldering components</em></sup>
       </td>
       <td>
-        <h3>🚀 Готовий результат</h3>
-        <img src="Photos/result.jpg" width="350" alt="Результат">
+        <h3>🚀 Final Result</h3>
+        <img src="Photos/result.jpg" width="350" alt="Result">
         <br>
-        <sup><em>Бар-бот зібраний та готовий до роботи</em></sup>
+        <sup><em>The Bar-Bot fully assembled and ready</em></sup>
       </td>
     </tr>
   </table>
 </div>
----
-
-## ✨ Основні можливості
-
-* **Конвеєрний режим:** Якщо на базі стоїть кілька склянок (від 2 до 3), бот послідовно та автоматично наповнить їх усі без зайвих рухів.
-* **Плавна кінематика (Soft Start):** Кран рухається плавно (покроково), що прибирає різкі ривки, береже шестерні сервопривода та додає пристрою преміального вигляду.
-* **Аварійне гальмо (Анти-крапля):** Якщо прибрати склянку під час наливу, датчик миттєво це фіксує, зупиняє подачу та робить зворотний імпульс (реверс помпи), щоб уникнути проливання.
-* **Гнучке налаштування об'єму:** За допомогою потенціометра можна легко вибирати порцію (крок по 5 мл).
-* **Інтуїтивна світлодіодна індикація:** Двоколірний світлодіод чітко показує стан системи (зелений — готовність/успіх, червоний — помилка або відмова, а під час наливу світиться жовтим).
-* **Захист від "одиноких барменів" 🍻:** Якщо поставити лише 1 склянку і спробувати запустити налив, бот виведе на екран жартівливе попередження та відмовиться наливати (але режим промивки для однієї склянки працює штатно).
-* **Режим промивки:** Утримування кнопки «Старт» протягом 5 секунд активує режим промивки системи.
 
 ---
 
-## 🛠 Апаратна база (Специфікація)
+## ✨ Main Features
 
-| Компонент | Назва / Модель | Призначення |
+* **Conveyor Mode:** If there are multiple cups on the base (2 to 3), the bot will sequentially and automatically fill all of them without unnecessary movements.
+* **Smooth Kinematics (Soft Start):** The crane moves smoothly step-by-step, eliminating sharp jerks, protecting the servo gears, and giving the device a premium feel.
+* **Emergency Stop (Anti-Drip):** If a cup is removed during pouring, the sensor detects it instantly, stops the flow, and reverses the pump to prevent spilling.
+* **Flexible Volume Control:** You can easily adjust the portion size (in 5 ml increments) using a potentiometer.
+* **Intuitive LED Indication:** A dual-color LED clearly displays the system status (Green — ready/success, Red — error/abort, and Yellow — during the pouring process).
+* **"Lonely Bartender" Protection 🍻:** If you place only 1 cup and try to start pouring, the bot will display a joking warning on the screen and refuse to pour (however, the cleaning mode for a single cup works as usual).
+* **Cleaning Mode:** Holding the "Start" button for 5 seconds activates the system flush/cleaning mode.
+
+---
+
+## 🛠 Hardware Specification
+
+| Component | Name / Model | Purpose |
 | :--- | :--- | :--- |
-| **Мікроконтролер** | Arduino Uno R3 | Головний мозок пристрою |
-| **Корпус** | Іграшковий комбайн | Креативна оболонка проєкту |
-| **Екран** | OLED 128x64 (SSD1306, Soft I2C) | Виведення статусу, об'єму та анімацій |
-| **Сервопривід** | MG996R / SG90 (або аналог) | Позиціонування крана над склянками |
-| **Драйвер двигуна** | DRV8833 (або L298N) | Керування та реверс водяної помпи |
-| **Помпа** | Міні-помпа 5V для рідин | Перекачування напою |
-| **Датчики наявності** | Кінцеві вимикачі (кнопки) | Визначення наявних склянок (3 позиції) |
-| **Керування** | Потенціометр + Кнопка «Старт» | Вибір об'єму та запуск процесу |
-| **Індикація** | Двоколірний світлодіод (Червоний/Зелений) | Візуальне оповіщення (Старт — зелений, помилки — червоний, налив — жовтий) |
+| **Microcontroller** | Arduino Uno R3 | The main brain of the device |
+| **Enclosure** | Toy Combine Harvester | Creative shell for the project |
+| **Display** | OLED 128x64 (SSD1306, Soft I2C) | Displays status, volume, and animations |
+| **Servo Motor** | MG996R / SG90 (or equivalent) | Positions the crane over the cups |
+| **Motor Driver** | DRV8833 (or L298N) | Controls and reverses the water pump |
+| **Pump** | 5V Mini Liquid Pump | Pumps the beverage |
+| **Presence Sensors** | Limit Switches | Detects cups at 3 specific positions |
+| **Controls** | Potentiometer + "Start" Button | Selects volume and triggers the process |
+| **Indication** | Dual-color LED (Red/Green) | Visual alerts (Ready=Green, Error=Red, Pouring=Yellow) |
 
 ---
 
-## 📌 Підключення пінів (Pinout для Arduino Uno)
+## 📌 Pinout (for Arduino Uno)
 
-* **Екран (Soft I2C):** Clock = `8`, Data = `10`
-* **Потенціометр:** `A0`
-* **Кнопка «Старт»:** `2` (з підтяжкою до живлення)
-* **Драйвер помпи (DRV8833):** ШІМ пін = `5`, Напрямок/Реверс = `6`
-* **Сервопривід:** `9`
-* **Світлодіоди:** Червоний = `12`, Зелений = `11`
-* **Кінцеві вимикачі склянок:** Місце 1 = `4`, Місце 2 = `3`, Місце 3 = `7`
-
----
-
-## 💻 Вихідний код
-
-Повний вихідний код програми для Arduino IDE знаходиться у файлі **`firmware/code.txt`** у цьому репозиторії.
+* **Display (Soft I2C):** Clock = `8`, Data = `10`
+* **Potentiometer:** `A0`
+* **"Start" Button:** `2` (with pull-up resistor)
+* **Pump Driver (DRV8833):** PWM pin = `5`, Direction/Reverse = `6`
+* **Servo Motor:** `9`
+* **LEDs:** Red = `12`, Green = `11`
+* **Cup Limit Switches:** Position 1 = `4`, Position 2 = `3`, Position 3 = `7`
 
 ---
 
-## 🚀 Як встановити та завантажити
+## 💻 Source Code
 
-1. Відкрий **Arduino IDE**.
-2. Встанови необхідні бібліотеки через Менеджер бібліотек (`Tools -> Manage Libraries...`):
-   * **U8g2** (для роботи з OLED екраном)
-   * **Servo** (стандартна бібліотека для сервоприводів)
-3. Завантаж код із файлу `firmware/code.txt` у свою плату **Arduino Uno R3**.
+The full source code for the Arduino IDE is located in the **`firmware/code.txt`** file in this repository.
 
 ---
 
-## Що планується покращити (What I'd Improve Next)
+## 🚀 How to Install and Upload
 
-* **Додати роз'єми живлення та шину підключення периферії**, щоб зробити подальше обслуговування, розбирання та модульну заміну компонентів усередині корпусу комбайна зручнішими.
-* **Оптимізувати внутрішній кабель-менеджмент** за допомогою додаткових кріплень та 3D-друкованих елементів для надійної фіксації дротів.
-
----
-
-## Продемонстровані навички (Skills Demonstrated)
-
-* **Програмування вбудованих систем (Embedded C++)**: реалізація неблокуючої логіки, керування станами системи та виведення кастомного UI через бібліотеку U8g2.
-* **Апаратна інтеграція та макетування**: робота з мікроконтролером Arduino Uno, налаштування сервоприводів та ШІМ-керування драйвером двигуна помпи.
-* **Робота з периферією та датчиками**: опитування кінцевих вимикачів для безпеки, детекції та конвеєрного наливу рідин.
-* **Конструювання та інженерна творчість**: нестандартна інтеграція електроніки та механічних вузлів у готовий іграшковий корпус.
+1. Open **Arduino IDE**.
+2. Install the necessary libraries via the Library Manager (`Tools -> Manage Libraries...`):
+   * **U8g2** (for the OLED display)
+   * **Servo** (standard library for servo control)
+3. Upload the code from the `firmware/code.txt` file to your **Arduino Uno R3** board.
 
 ---
 
-## Автор (Author)
+## 📈 What I'd Improve Next
+
+* **Add power connectors and a peripheral connection bus** to make future maintenance, disassembly, and modular component replacement inside the combine body more convenient.
+* **Optimize internal cable management** using additional mounts and custom 3D-printed elements to securely fix the wiring harness.
+
+---
+
+## 🎯 Skills Demonstrated
+
+* **Embedded C++ Programming**: Implementing non-blocking logic, state machine management, and custom UI output via the U8g2 library.
+* **Hardware Integration & Prototyping**: Working with the Arduino Uno, configuring servo kinematics, and PWM control for the pump motor driver.
+* **Sensor Interfacing**: Polling limit switches for safety interlocks, cup detection, and conveyor-style fluid dispensing.
+* **Mechanical Integration & Engineering Creativity**: Unconventional integration of electronics and mechanical assemblies into an existing toy enclosure.
+
+---
+
+## 👨‍💻 Author
 
 Levyk — Telecommunications & Radio Engineering student, Lviv Polytechnic National University [GitHub](https://github.com/Levyyk).
