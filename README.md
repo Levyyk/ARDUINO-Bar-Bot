@@ -95,7 +95,7 @@ Check out the video review of the automatic Bar-Bot in action:
 
 ## 💻 Source Code
 
-The full source code for the Arduino IDE is located in the **`firmware/code.txt`** file in this repository.
+The full source code for the Arduino IDE is located in the **`firmware/bar_bot.ino`** file in this repository.
 
 ---
 
