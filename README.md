@@ -6,7 +6,9 @@
 
 ## 🎬 Демонстрація роботи (Video)
 
-<video src="[video/demo.mp4](https://youtube.com/shorts/RO1bv24hK7s?si=kT7Ix8p-U74X5eEK)" controls width="100%"></video>
+Подивися відеоогляд роботи автоматичного бар-бота на базі Arduino Uno R3:
+
+[![Дивитися відео бар-бота](https://img.youtube.com/vi/RO1bv24hK7s/0.jpg)](https://youtube.com/shorts/RO1bv24hK7s?si=kT7Ix8p-U74X5eEK)
 
 ---
 
@@ -14,7 +16,7 @@
 
 | Проєктування та креслення | Обтягування корпусу | Внутрішня комутація і пайка | Готовий результат |
 | :---: | :---: | :---: | :---: |
-| <img src="Photos/blueprint.png" width="200"> | <img src="photos/wrapping.jpg" width="200"> | <img src="photos/electronics.jpg" width="200"> | <img src="photos/result.jpg" width="200"> |
+| <img src="Photos/blueprint.png" width="200"> | <img src="Photos/finishing.png" width="200"> | <img src="Photos/electronics.jpg" width="200"> | <img src="Photos/result.jpg" width="200"> |
 
 ---
 
