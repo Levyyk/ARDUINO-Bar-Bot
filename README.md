@@ -16,33 +16,40 @@
 
 ---
 
-## 📸 Галерея та етапи збірки (Gallery)
+## 📸 Галерея та етапи збірки
 
-<p align="center">
-  <table style="margin: 0 auto;">
-    <tr valign="top">
-      <td align="center" width="50%">
-        <b>Проєктування та креслення</b><br><br>
-        <img src="Photos/blueprint.png" width="300">
+<div align="center">
+  <table>
+    <tr align="center">
+      <td>
+        <h3>📐 Проєктування</h3>
+        <img src="Photos/blueprint.png" width="350" alt="Креслення">
+        <br>
+        <sup><em>Розробка креслень та планування</em></sup>
       </td>
-      <td align="center" width="50%">
-        <b>Обтягування корпусу</b><br><br>
-        <img src="Photos/finishing.png" width="300">
+      <td>
+        <h3>🎨 Робота з корпусом</h3>
+        <img src="Photos/finishing.png" width="350" alt="Обтягування">
+        <br>
+        <sup><em>Обтягування деталей та підготовка бази</em></sup>
       </td>
     </tr>
-    <tr valign="top">
-      <td align="center" width="50%">
-        <b>Внутрішня комутація і пайка</b><br><br>
-        <img src="Photos/electronics.jpg" width="300">
+    <tr align="center">
+      <td>
+        <h3>⚙️ Електроніка</h3>
+        <img src="Photos/electronics.jpg" width="350" alt="Комутація">
+        <br>
+        <sup><em>Внутрішня комутація і пайка компонентів</em></sup>
       </td>
-      <td align="center" width="50%">
-        <b>Готовий результат</b><br><br>
-        <img src="Photos/result.jpg" width="300">
+      <td>
+        <h3>🚀 Готовий результат</h3>
+        <img src="Photos/result.jpg" width="350" alt="Результат">
+        <br>
+        <sup><em>Бар-бот зібраний та готовий до роботи</em></sup>
       </td>
     </tr>
   </table>
-</p>
-
+</div>
 ---
 
 ## ✨ Основні можливості
