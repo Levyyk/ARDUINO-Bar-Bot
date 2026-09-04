@@ -126,4 +126,4 @@
 
 ## Автор (Author)
 
-Levyyk — студент інженерного напряму, Національний університет «Львівська політехніка» [GitHub](https://github.com/Levyyk).
+Levyk — Telecommunications & Radio Engineering student, Lviv Polytechnic National University [GitHub](https://github.com/Levyyk).
