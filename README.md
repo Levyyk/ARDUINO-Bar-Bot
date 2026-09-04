@@ -14,7 +14,7 @@
 
 | Проєктування та креслення | Обтягування корпусу | Внутрішня комутація і пайка | Готовий результат |
 | :---: | :---: | :---: | :---: |
-| <img src="photos/blueprint.jpg" width="200"> | <img src="photos/wrapping.jpg" width="200"> | <img src="photos/electronics.jpg" width="200"> | <img src="photos/result.jpg" width="200"> |
+| <img src="Photos/blueprint.png" width="200"> | <img src="photos/wrapping.jpg" width="200"> | <img src="photos/electronics.jpg" width="200"> | <img src="photos/result.jpg" width="200"> |
 
 ---
 
