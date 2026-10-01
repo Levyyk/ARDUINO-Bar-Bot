@@ -100,6 +100,20 @@ Check out the video review of the automatic Bar-Bot in action:
 
 ---
 
+## 🔌 Schematic
+
+A hand-drawn wiring diagram of the prototype is available here: [`Schematic/schematic.jpg`](Schematic/schematic.jpg)
+
+<p align="center">
+  <a href="Schematic/schematic.jpg">
+    <img src="Schematic/schematic.jpg" width="700" alt="Hand-drawn wiring schematic of the Bar-Bot">
+  </a>
+</p>
+
+> The diagram is hand-drawn and describes the prototype wiring, not a PCB design. For exact pin assignments, rely on the pinout above and the firmware.
+
+---
+
 ## 🧪 Dosing and Calibration
 
 Dosing is **time-based (open loop)**: the pump runs at PWM 190/255 for `volume × 334 ms`. The coefficient of **334 ms/ml** was measured by pumping water into a measuring glass for a fixed time and dividing; it was checked against a 50 ml glass.
@@ -111,6 +125,13 @@ Dosing is **time-based (open loop)**: the pump runs at PWM 190/255 for `volume �
 ## 💻 Source Code
 
 The full source code for the Arduino IDE is located in the **`Firmware/`** folder of this repository.
+
+**Repository structure:**
+
+* `Firmware/`: Arduino sketch
+* `Photos/`: gallery and assembly photos
+* `Schematic/`: hand-drawn wiring diagram
+* `README.md`, `LICENSE`
 
 ---
 
